@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="on_off">On/Off</string>
+    <string name="cihaz_numaras">Cihaz Numarası</string>
+    <string name="cihaz_numarasi">Cihaz Numarası</string>
+    <string name="kullan_c_numaralar">Kullanıcı Numaraları</string>
+    <string name="telefon_no_1">Telefon no 1</string>
+    <string name="telefon_no_2">Telefon no 2</string>
+    <string name="telefon_no_3">Telefon no 3</string>
+    <string name="telefon_no_4">Telefon no 4</string>
+    <string name="telefon_no_5">Telefon no 5</string>
+    <string name="g_nder">Gönder</string>
+    <string name="sonraki_sayfa">Sonraki Sayfa</string>
+    <string name="giriniz">Giriniz</string>
+    <string name="g_iriniz">Giriniz</string>
+    <string name="cıkıs">Çıkış</string>
+    <string name="mesaj">Mesaj</string>
+    <string name="cihaz_numara">Cihaz Numarası</string>
+    <string name="cihaz_no">Cihaz No</string>
+    <string name="yard_m">Yardım</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="versiyon">V22.01</string>
+</resources>

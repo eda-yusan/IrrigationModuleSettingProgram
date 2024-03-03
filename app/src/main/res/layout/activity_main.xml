@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A9E4DCCF"
+    android:orientation="vertical"
+    android:rotationX="0"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="113dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/asser" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="#E9A4B8AA"
+        android:layout_marginStart="15dp"
+        android:text="@string/cihaz_numara"
+        android:textColor="#366362"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/cihazno"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:ems="10"
+        android:hint="@string/cihaz_no"
+        android:maxLength="11"
+        android:numeric="integer" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:background="#E9A4B8AA"
+        android:text="@string/kullan_c_numaralar"
+        android:textColor="#366362"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/telefon_no_1"
+        android:inputType="phone"
+        android:maxLength="11"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/editTextPhone2"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:ems="10"
+        android:hint="@string/telefon_no_2"
+        android:inputType="phone"
+        android:maxLength="11"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/editTextPhone3"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:ems="10"
+        android:hint="@string/telefon_no_3"
+        android:inputType="phone"
+        android:maxLength="11"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/editTextPhone4"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:ems="10"
+        android:hint="@string/telefon_no_4"
+        android:inputType="phone"
+        android:maxLength="11"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/editTextPhone5"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:ems="10"
+        android:hint="@string/telefon_no_5"
+        android:inputType="phone"
+        android:maxLength="11"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#7E933A0A"
+        android:text="@string/g_nder"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_uyari"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#7E933A0A"
+        android:text="@string/cıkıs"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/yardim"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="#591111"
+        android:text="@string/yard_m" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:text="@string/versiyon"
+        android:textSize="17sp" />
+
+
+</LinearLayout>
